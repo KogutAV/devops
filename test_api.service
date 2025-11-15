@@ -1,0 +1,11 @@
+[Unit]
+Description=Check Api
+
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash /opt/test_api.sh
+
+
+[Install]
+WantedBy=multi-user.target
