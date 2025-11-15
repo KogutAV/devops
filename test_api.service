@@ -1,6 +1,6 @@
 [Unit]
 Description=Check Api
-
+After=network.target
 
 [Service]
 Type=oneshot
